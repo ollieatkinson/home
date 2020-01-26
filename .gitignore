@@ -1,0 +1,13 @@
+.cloud
+.storage
+.uuid
+deps
+tts
+*.log
+*.db*
+/secrets.yaml
+@eaDir
+www/community
+.*.conf
+.*.state
+.pip*

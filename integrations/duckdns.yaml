@@ -1,0 +1,2 @@
+domain: coltsfoot
+access_token: !secret duckdns_access_token

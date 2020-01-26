@@ -1,0 +1,2 @@
+client_id: FAA72176BA989CBDB5FA4D38DB5267C00A4F44A075BC7D7BEAA97BBEF2826A81
+client_secret: !secret homeconnect_client_secret

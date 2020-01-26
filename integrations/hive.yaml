@@ -1,0 +1,2 @@
+username: !secret email
+password: !secret hive_password

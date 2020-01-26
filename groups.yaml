@@ -1,0 +1,27 @@
+office:
+  name: "Office"
+  icon: mdi:desk
+  entities:
+    - media_player.yamaha_receiver
+    - light.office_front
+    - light.office_back
+
+living_room:
+  name: "Living Room"
+  icon: mdi:desk
+  entities:
+    - media_player.yamaha_receiver
+    - light.office_front
+    - light.office_back
+
+master_bedroom:
+  name: "Master Bedroom"
+  icon: mdi:bed-king-outline
+  entities:
+    - light.bedroom
+
+master_bathroom:
+  name: "Master Bathroom"
+  icon: mdi:shower
+  entities:
+    - light.bathroom_light

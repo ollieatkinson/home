@@ -1,0 +1,9 @@
+- platform: sky_hub
+  host: 10.10.26.1
+- platform: tile
+  username: !secret email
+  password: !secret tile_password
+- platform: tado
+  username: !secret email
+  password: !secret tado_password
+  home_id: !secret tado_home

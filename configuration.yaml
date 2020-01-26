@@ -1,0 +1,20 @@
+api:
+default_config:
+device_tracker: !include integrations/device_tracker.yaml
+group: !include groups.yaml
+hive: !include integrations/hive.yaml
+homeconnect: !include integrations/homeonnect.yaml
+homekit: !include integrations/homekit.yaml
+http: !include integrations/http.yaml
+ios:
+logbook:
+media_player:
+  - !include integrations/media/lg_tv.yaml
+  - !include integrations/media/skyq.yaml
+  - !include integrations/media/yamaha_amplifier.yaml
+mqtt: !include integrations/mqtt.yaml
+scene: !include scenes.yaml
+sun:
+system_health:
+tado: !include integrations/tado.yaml
+tuya: !include integrations/tuya.yaml

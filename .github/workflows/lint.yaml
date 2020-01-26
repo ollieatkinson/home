@@ -1,0 +1,10 @@
+name: "Lint"
+on: [push, pull_request]
+
+jobs:
+  yamllint:
+    name: YAMLLint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lint YAML
+        run: make lint

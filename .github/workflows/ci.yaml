@@ -22,5 +22,7 @@ jobs:
           python-version: '3.x'
       - name: git submodule
         run: git submodule update --init --recursive
+      - name: Install xmltodict
+        run: pip install xmltodict
       - name: Check Configuration
         run: cp secrets.example.yaml secrets.yaml && make check

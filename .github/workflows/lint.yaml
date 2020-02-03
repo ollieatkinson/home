@@ -5,12 +5,12 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
-    container:
-      image: homeassistant/amd64-homeassistant
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-python@v1
         with:
           python-version: '3.x'
-      - name: Lint YAML
-        run: make lint
+      - name: Install YAMLLint
+        run: python -m pip install --upgrade pip setuptools wheel yamllint
+      - name: Run YAMLLint
+        run: yamllint -c .yamllint.yaml .

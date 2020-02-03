@@ -16,4 +16,4 @@ jobs:
       - name: Copy secrets
         run: cp secrets.example.yaml secrets.yaml
       - name: Check Configuration
-        run: make check
+        run: hass --script check_config -c .

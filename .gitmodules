@@ -1,9 +1,9 @@
 [submodule "3rd_party/homeassistant-homeconnect"]
 	path = 3rd_party/homeassistant-homeconnect
-	url = git@github.com:DavidMStraub/homeassistant-homeconnect.git
+	url = https://github.com/DavidMStraub/homeassistant-homeconnect.git
 [submodule "3rd_party/homeassistant-lightwave2"]
 	path = 3rd_party/homeassistant-lightwave2
-	url = git@github.com:bigbadblunt/homeassistant-lightwave2.git
+	url = https://github.com/bigbadblunt/homeassistant-lightwave2.git
 [submodule "3rd_party/Home_Assistant_SkyQ_MediaPlayer"]
 	path = 3rd_party/Home_Assistant_SkyQ_MediaPlayer
-	url = git@github.com:4n0nD3v3l0p3r/Home_Assistant_SkyQ_MediaPlayer.git
+	url = https://github.com/4n0nD3v3l0p3r/Home_Assistant_SkyQ_MediaPlayer.git

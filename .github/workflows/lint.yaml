@@ -12,3 +12,5 @@ jobs:
           python-version: '3.x'
       - name: Lint YAML
         run: make lint
+      - name: Check Configuration
+        run: make check

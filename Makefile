@@ -1,3 +1,7 @@
+.PHONY: lint
+check:
+	@python3 -m pip install homeassistant
+	@hass --script check_config -c .
 
 # Lint YAML
 .PHONY: lint

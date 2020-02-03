@@ -13,6 +13,4 @@ jobs:
       - name: Lint YAML
         run: make lint
       - name: Check Configuration
-        run:
-          - cp secrets.example.yaml secrets.yaml 
-          - make check
+        run: cp secrets.example.yaml secrets.yaml && make check

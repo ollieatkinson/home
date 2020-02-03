@@ -1,0 +1,16 @@
+name: Lint YAML
+on: [push, pull_request]
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    container:
+      image: homeassistant/amd64-homeassistant
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+      - name: Lint YAML
+        run: make lint

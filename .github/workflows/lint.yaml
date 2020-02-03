@@ -1,9 +1,9 @@
-name: "Lint"
+name: "CI"
 on: [push, pull_request]
 
 jobs:
-  ci:
-    name: CI
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -12,5 +12,13 @@ jobs:
           python-version: '3.x'
       - name: Lint YAML
         run: make lint
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
       - name: Check Configuration
         run: cp secrets.example.yaml secrets.yaml && make check

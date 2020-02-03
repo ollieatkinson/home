@@ -5,20 +5,30 @@ office:
     - media_player.yamaha_receiver
     - light.office_front
     - light.office_back
+    - sensor.office_temperature
+    - sensor.office_heating
+    - sensor.office_humidity
 
 living_room:
   name: "Living Room"
   icon: mdi:desk
   entities:
-    - media_player.yamaha_receiver
-    - light.office_front
-    - light.office_back
+    - media_player.skyq
+    - media_player.living_room_tv
+    - light.living_room
+    - light.living_room_2
+    - sensor.living_room_temperature
+    - sensor.living_room_heating
+    - sensor.living_room_humidity
 
 master_bedroom:
   name: "Master Bedroom"
   icon: mdi:bed-king-outline
   entities:
     - light.bedroom
+    - sensor.bedroom_temperature
+    - sensor.bedroom_heating
+    - sensor.bedroom_humidity
 
 master_bathroom:
   name: "Master Bathroom"

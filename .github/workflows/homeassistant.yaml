@@ -1,0 +1,19 @@
+name: Home Assistant
+on: [push, pull_request]
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    container:
+      image: homeassistant/amd64-homeassistant
+    steps:
+      - uses: actions/checkout@master
+      - name: git submodule
+        run: git submodule update --init --recursive
+      - name: Install xmltodict
+        run: pip install xmltodict
+      - name: Copy secrets
+        run: cp secrets.example.yaml secrets.yaml
+      - name: Check Configuration
+        run: hass --script check_config -c .

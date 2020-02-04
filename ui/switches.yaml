@@ -1,0 +1,8 @@
+title: Switches
+path: switches
+cards:
+  - type: entities
+    title: Living Room
+    entities:
+      - light.living_room
+      - light.living_room_2

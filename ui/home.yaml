@@ -1,0 +1,9 @@
+title: Home
+path: home
+cards:
+  - type: custom:search-card
+    max_results: 10
+  - type: thermostat
+    entity: climate.heating
+  - type: weather-forecast
+    entity: weather.dark_sky

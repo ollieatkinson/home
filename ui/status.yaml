@@ -3,6 +3,8 @@ path: status
 cards:
   - type: entities
     title: Family
+    show_header_toggle: false
     entities:
       - person.oliver
       - person.ellie
+      - person.thomas

@@ -1,5 +1,7 @@
 title: !secret home_name
-
+resources:
+  - url: /local/mini-media-player-bundle.js?v=1.6.0
+    type: module
 views:
   - !include ui/home.yaml
   - !include ui/switches.yaml

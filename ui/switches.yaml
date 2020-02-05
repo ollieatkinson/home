@@ -2,7 +2,7 @@ title: Switches
 path: switches
 cards:
   - type: entities
-    title: Living Room
+    title: Lights
     entities:
       - light.bathroom_light
       - light.bedroom

@@ -1,9 +1,8 @@
 title: Status
 path: status
 cards:
-  - type: custom:group-card
-    card:
-      type: entities
-      title: People
-      show_header_toggle: false
-    group: group.family
+  - type: entities
+    title: Family
+    entities:
+      - person.oliver
+      - person.ellie

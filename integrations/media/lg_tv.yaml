@@ -1,12 +1,2 @@
-platform: webostv
 host: 10.10.26.9
 name: Living Room TV
-turn_on_action:
-  service: persistent_notification.create
-  data:
-    message: "Turn on action"
-customize:
-  sources:
-    - livetv
-    - youtube
-    - netflix

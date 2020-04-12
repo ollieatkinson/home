@@ -29,3 +29,6 @@ frontend:
 system_health:
 tado: !include integrations/tado.yaml
 tuya: !include integrations/tuya.yaml
+discovery:
+  ignore:
+    - yamaha

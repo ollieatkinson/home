@@ -1,0 +1,51 @@
+title: Home
+path: home
+cards:
+  - type: weather-forecast
+    entity: weather.home
+  - type: vertical-stack
+    title: Heating
+    cards:
+      - entities:
+          - entity: climate.heating
+        hours_to_show: 24
+        refresh_interval: 0
+        type: history-graph
+      - entities:
+          - entity: climate.heating
+          - entity: water_heater.hot_water
+          - entity: sensor.outside_temperature
+        type: entities
+  - type: vertical-stack
+    title: Living Room
+    cards:
+      - entities:
+          - entity: climate.living_room
+          - entity: sensor.living_room_humidity
+        hours_to_show: 24
+        refresh_interval: 0
+        type: history-graph
+      - type: thermostat
+        entity: climate.living_room
+  - type: vertical-stack
+    title: Bedroom
+    cards:
+      - entities:
+          - entity: climate.bedroom
+          - entity: sensor.bedroom_humidity
+        hours_to_show: 24
+        refresh_interval: 0
+        type: history-graph
+      - type: thermostat
+        entity: climate.bedroom
+  - type: vertical-stack
+    title: Office
+    cards:
+      - entities:
+          - entity: climate.office
+          - entity: sensor.office_humidity
+        hours_to_show: 24
+        refresh_interval: 0
+        type: history-graph
+      - type: thermostat
+        entity: climate.office

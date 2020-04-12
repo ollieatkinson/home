@@ -35,3 +35,11 @@ master_bathroom:
   icon: mdi:shower
   entities:
     - light.bathroom_light
+
+family:
+  name: Family
+  icon: mdi:human-male-female
+  entities:
+    - person.oliver
+    - person.ellie
+    - person.thomas

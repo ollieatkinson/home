@@ -1,0 +1,27 @@
+platform: skyq
+host: 10.10.26.62
+name: SkyQ
+room: Bedroom
+config_directory: '/home/oliver/.homeassistant/'
+generate_switches_for_channels: true
+sources:
+  BBCOne: '1,1,5'
+  BBCTwo: '1,0,2'
+  SkyAtlantic: '1,0,8'
+  SkyOne: '1,0,6'
+  SkyNews: '5,0,1'
+  SkyF1: '4,0,6'
+  CHup: 'channelup'
+  CHdn: 'channeldown'
+  Select: 'select'
+  Up: 'up'
+  Down: 'down'
+  Left: 'left'
+  Right: 'right'
+  I: 'i'
+  Dismiss: 'dismiss'
+  Sidebar: 'Sidebar'
+  Home: 'home'
+  TVGuide: 'tvguide'
+  Sky: 'sky'
+  Record: 'record'

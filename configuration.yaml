@@ -17,9 +17,10 @@ homekit: !include integrations/homekit.yaml
 http: !include integrations/http.yaml
 ios:
 logbook:
+webostv: !include integrations/media/lg_tv.yaml
 media_player:
-  - !include integrations/media/lg_tv.yaml
   - !include integrations/media/skyq.yaml
+  - !include integrations/media/skyq.bedroom.yaml
   - !include integrations/media/yamaha_amplifier.yaml
 mqtt: !include integrations/mqtt.yaml
 scene: !include scenes.yaml

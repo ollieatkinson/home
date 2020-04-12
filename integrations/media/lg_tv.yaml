@@ -1,4 +1,3 @@
-platform: webostv
 host: 10.10.26.9
 name: Living Room TV
 turn_on_action:
@@ -10,3 +9,4 @@ customize:
     - livetv
     - youtube
     - netflix
+    - amazon

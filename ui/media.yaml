@@ -1,6 +1,10 @@
 title: Media
 path: Media
 cards:
+  - type: media-control
+    entity: media_player.skyq_bedroom
+  - type: media-control
+    entity: media_player.yamaha
   - type: 'custom:mini-media-player'
     artwork: cover
     entity: media_player.skyq

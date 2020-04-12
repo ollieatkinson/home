@@ -7,4 +7,3 @@ views:
   - !include ui/switches.yaml
   - !include ui/media.yaml
   - !include ui/status.yaml
-  - !include ui/development.yaml

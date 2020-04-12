@@ -2,7 +2,7 @@ platform: skyq
 host: 10.10.26.11
 name: SkyQ
 room: Lounge
-config_directory: '/home/oliver/.homeassistant/'
+config_directory: '/var/lib/hass'
 generate_switches_for_channels: true
 sources:
   BBCOne: '1,1,5'

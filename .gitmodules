@@ -7,3 +7,6 @@
 [submodule "3rd_party/Home_Assistant_SkyQ_MediaPlayer"]
 	path = 3rd_party/Home_Assistant_SkyQ_MediaPlayer
 	url = https://github.com/4n0nD3v3l0p3r/Home_Assistant_SkyQ_MediaPlayer.git
+[submodule "themes/lovelace-ios-dark-mode-theme"]
+	path = themes/lovelace-ios-dark-mode-theme
+	url = https://github.com/basnijholt/lovelace-ios-dark-mode-theme.git

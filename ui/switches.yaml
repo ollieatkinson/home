@@ -7,8 +7,11 @@ cards:
       - light.bathroom_light
       - light.bedroom
       - light.downstairs_hall
+      - light.living_room_lights
       - light.living_room
       - light.living_room_2
+      - light.office_lights
+      - light.office_lamp
       - light.office_back
       - light.office_front
       - light.tommys_room

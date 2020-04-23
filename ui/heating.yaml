@@ -3,8 +3,6 @@ path: heating
 cards:
   - type: markdown
     content: '# Heating'
-  - type: weather-forecast
-    entity: weather.home
   - type: vertical-stack
     cards:
       - type: thermostat

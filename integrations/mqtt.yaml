@@ -1,1 +1,2 @@
 broker: 10.10.26.76
+discovery: true

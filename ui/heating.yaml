@@ -1,5 +1,5 @@
-title: Home
-path: home
+title: Heating
+path: heating
 cards:
   - type: markdown
     content: '# Heating'

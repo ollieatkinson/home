@@ -31,5 +31,4 @@ system_health:
 tado: !include integrations/tado.yaml
 tuya: !include integrations/tuya.yaml
 discovery:
-  ignore:
-    - yamaha
+light: !include integrations/light.yaml

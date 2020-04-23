@@ -1,0 +1,19 @@
+title: Office
+path: office
+cards:
+  - type: vertical-stack
+    cards:
+      - type: markdown
+        content: '# Office'
+      - type: horizontal-stack
+        cards:
+          - type: light
+            entity: light.office_lamp
+            name: Lamp
+          - type: light
+            entity: light.gu10_office_lights
+            name: Main
+      - type: sensor
+        entity: sensor.office_temperature
+        graph: line
+        name: Temperature

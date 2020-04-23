@@ -4,6 +4,8 @@ resources:
     type: module
 views:
   - !include ui/home.yaml
+  - !include ui/heating.yaml
+  - !include ui/office.yaml
   - !include ui/switches.yaml
   - !include ui/media.yaml
   - !include ui/status.yaml

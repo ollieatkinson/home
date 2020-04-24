@@ -3,3 +3,24 @@ path: home
 cards:
   - type: weather-forecast
     entity: weather.home
+  entities:
+  - type: 'custom:atomic-calendar'
+    entity: calendar.family
+    title: Calendar
+  - type: vertical-stack
+    cards:
+      - type: glance
+        entities:
+          - entity: sensor.processor_use
+          - entity: sensor.memory_use_percent
+          - entity: sensor.disk_use_percent
+      - type: glance
+        entities:
+          - entity: sensor.process_caddy
+          - entity: sensor.last_boot
+          - entity: sensor.load_15m
+      - type: glance
+        entities:
+          - entity: sensor.network_throughput_in_eth0
+          - entity: sensor.network_throughput_out_eth0
+          - entity: sensor.ipv4_address_eth0

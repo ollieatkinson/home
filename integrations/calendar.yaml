@@ -3,5 +3,5 @@
   username: !secret email
   password: !secret icloud_app_password
   calendars:
-    - Family
-    - UK Holidays
+    - "Family"
+    - "UK Holidays"

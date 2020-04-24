@@ -5,6 +5,7 @@ office:
     - media_player.yamaha_receiver
     - light.office_front
     - light.office_back
+    - light.office_lamp
     - sensor.office_temperature
     - sensor.office_heating
     - sensor.office_humidity

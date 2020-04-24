@@ -1,0 +1,41 @@
+title: Heating
+path: heating
+cards:
+  - type: markdown
+    content: '# Heating'
+  - type: vertical-stack
+    cards:
+      - type: thermostat
+        entity: climate.heating
+      - type: glance
+        entities:
+          - entity: climate.office
+          - entity: climate.living_room
+          - entity: climate.dining_room
+      - type: glance
+        entities:
+          - entity: climate.bedroom
+          - entity: climate.second_bedroom
+          - entity: climate.tommys_room
+  - type: vertical-stack
+    cards:
+      - type: history-graph
+        entities:
+          - entity: sensor.living_room_temperature
+          - entity: sensor.office_temperature
+          - entity: sensor.dining_room_temperature
+          - entity: sensor.bedroom_temperature
+          - entity: sensor.second_bedroom_temperature
+          - entity: sensor.tommys_room_temperature
+        hours_to_show: 24
+        refresh_interval: 0
+  - type: entities
+    title: Heating
+    entities:
+      - entity: climate.heating
+      - entity: climate.living_room
+      - entity: climate.office
+      - entity: climate.dining_room
+      - entity: climate.bedroom
+      - entity: climate.tommys_room
+      - entity: climate.second_bedroom

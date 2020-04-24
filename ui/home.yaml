@@ -3,49 +3,24 @@ path: home
 cards:
   - type: weather-forecast
     entity: weather.home
+  - type: 'custom:atomic-calendar'
+    entities:
+      - entity: calendar.family
+    title: Calendar
   - type: vertical-stack
-    title: Heating
     cards:
-      - entities:
-          - entity: climate.heating
-        hours_to_show: 24
-        refresh_interval: 0
-        type: history-graph
-      - entities:
-          - entity: climate.heating
-          - entity: water_heater.hot_water
-          - entity: sensor.outside_temperature
-        type: entities
-  - type: vertical-stack
-    title: Living Room
-    cards:
-      - entities:
-          - entity: climate.living_room
-          - entity: sensor.living_room_humidity
-        hours_to_show: 24
-        refresh_interval: 0
-        type: history-graph
-      - type: thermostat
-        entity: climate.living_room
-  - type: vertical-stack
-    title: Bedroom
-    cards:
-      - entities:
-          - entity: climate.bedroom
-          - entity: sensor.bedroom_humidity
-        hours_to_show: 24
-        refresh_interval: 0
-        type: history-graph
-      - type: thermostat
-        entity: climate.bedroom
-  - type: vertical-stack
-    title: Office
-    cards:
-      - entities:
-          - entity: climate.office
-          - entity: sensor.office_humidity
-        hours_to_show: 24
-        refresh_interval: 0
-        type: history-graph
-      - type: thermostat
-        entity: climate.office
+      - type: glance
+        entities:
+          - entity: sensor.processor_use
+          - entity: sensor.memory_use_percent
+          - entity: sensor.disk_use_percent
+      - type: glance
+        entities:
+          - entity: sensor.process_caddy
+          - entity: sensor.last_boot
+          - entity: sensor.load_15m
+      - type: glance
+        entities:
+          - entity: sensor.network_throughput_in_eth0
+          - entity: sensor.network_throughput_out_eth0
+          - entity: sensor.ipv4_address_eth0

@@ -7,6 +7,8 @@ homeassistant:
   time_zone: Europe/London
 lovelace:
   mode: yaml
+# camera: !include integrations/camera.yaml
+calendar: !include integrations/calendar.yaml
 api:
 default_config:
 device_tracker: !include integrations/device_tracker.yaml
@@ -21,6 +23,7 @@ webostv: !include integrations/media/lg_tv.yaml
 media_player:
   - !include integrations/media/skyq.yaml
   - !include integrations/media/skyq_bedroom.yaml
+  - !include integrations/media/yamaha_amplifier.yaml
 mqtt: !include integrations/mqtt.yaml
 scene: !include scenes.yaml
 sun:
@@ -30,5 +33,8 @@ system_health:
 tado: !include integrations/tado.yaml
 tuya: !include integrations/tuya.yaml
 discovery:
-  ignore:
-    - yamaha
+light: !include integrations/light.yaml
+zeroconf:
+sensor:
+  - platform: systemmonitor
+    resources: !include integrations/system_monitor.yaml

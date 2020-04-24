@@ -2,8 +2,12 @@ title: !secret home_name
 resources:
   - url: /local/mini-media-player-bundle.js?v=1.6.0
     type: module
+  - url: /hacsfiles/atomic_calendar/atomic_calendar.js
+    type: module
 views:
   - !include ui/home.yaml
+  - !include ui/heating.yaml
+  - !include ui/office.yaml
   - !include ui/switches.yaml
   - !include ui/media.yaml
   - !include ui/status.yaml

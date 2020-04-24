@@ -1,0 +1,16 @@
+- platform: group
+  name: Office Lights
+  entities:
+    - light.office_front
+    - light.office_back
+    - light.office_lamp
+- platform: group
+  name: GU10 Office Lights
+  entities:
+    - light.office_front
+    - light.office_back
+- platform: group
+  name: Living Room Lights
+  entities:
+    - light.living_room
+    - light.living_room_2

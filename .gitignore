@@ -11,3 +11,4 @@ www/community
 .*.conf
 .*.state
 .pip*
+.DS_Store

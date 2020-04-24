@@ -3,9 +3,9 @@ path: home
 cards:
   - type: weather-forecast
     entity: weather.home
-  entities:
   - type: 'custom:atomic-calendar'
-    entity: calendar.family
+    entities:
+      - entity: calendar.family
     title: Calendar
   - type: vertical-stack
     cards:

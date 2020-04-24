@@ -10,3 +10,9 @@
 [submodule "themes/lovelace-ios-dark-mode-theme"]
 	path = themes/lovelace-ios-dark-mode-theme
 	url = https://github.com/basnijholt/lovelace-ios-dark-mode-theme.git
+[submodule "themes/slate_theme"]
+	path = themes/slate_theme
+	url = https://github.com/seangreen2/slate_theme.git
+[submodule "3rd_party/hacs"]
+	path = 3rd_party/hacs
+	url = https://github.com/hacs/integration.git

@@ -2,5 +2,5 @@
   name: Tommys Room
   still_image_url: https://via.placeholder.com/1920x1080
   stream_source: rtsp://10.10.26.61
-  username: admin
-  password: 123456
+  username: !secret camera_username
+  password: !secret camera_password

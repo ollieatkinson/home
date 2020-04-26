@@ -1,14 +1,20 @@
 filter:
   include_entities:
+    - climate.heating
     - light.bathroom_light
     - light.bedroom
     - light.downstairs_hall
-    - light.office_back
-    - light.office_front
+    - light.ellie_dressing_room_light
+    - light.gu10_office_lights
+    - light.landing
+    - light.office_lamp
+    - light.porch_light
+    - light.second_bedroom_light
     - light.tommys_room
-    - climate.heating
     - sensor.outside_temperature
-    - water_heater.hot_water
     - switch.dishwasher
     - switch.oven
     - switch.oven2
+    - water_heater.hot_water
+    
+

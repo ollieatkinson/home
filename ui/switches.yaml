@@ -1,17 +1,28 @@
 title: Switches
 path: switches
 cards:
+  - entity: light.downstairs_lights
+    type: light
+  - entity: light.upstairs_lights
+    type: light
   - type: entities
     title: Lights
     entities:
       - light.bathroom_light
       - light.bedroom
       - light.downstairs_hall
-      - light.living_room_lights
+      - light.ellie_dressing_room_light
+      - light.gu10_office_lights
+      - light.landing
       - light.living_room
       - light.living_room_2
-      - light.office_lights
+      - light.living_room_lights
+      - light.office_1
+      - light.office_2
+      - light.office_3
+      - light.office_4
       - light.office_lamp
-      - light.office_back
-      - light.office_front
+      - light.office_lights
+      - light.porch_light
+      - light.second_bedroom_light
       - light.tommys_room

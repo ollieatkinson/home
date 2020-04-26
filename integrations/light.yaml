@@ -1,16 +1,39 @@
 - platform: group
   name: Office Lights
   entities:
-    - light.office_front
-    - light.office_back
+    - light.office_1
+    - light.office_2
+    - light.office_3
+    - light.office_4
     - light.office_lamp
 - platform: group
   name: GU10 Office Lights
   entities:
-    - light.office_front
-    - light.office_back
+    - light.office_1
+    - light.office_2
+    - light.office_3
+    - light.office_4
 - platform: group
   name: Living Room Lights
   entities:
     - light.living_room
     - light.living_room_2
+- platform: group
+  name: Downstairs Lights
+  entities:
+    - light.office_1
+    - light.office_2
+    - light.office_3
+    - light.office_4
+    - light.office_lamp
+    - light.living_room
+    - light.living_room_2
+    - light.porch_light
+- platform: group
+  name: Upstairs Lights
+  entities:
+    - light.bedroom
+    - light.bathroom_light
+    - light.landing
+    - light.second_bedroom_light
+    - light.ellie_dressing_room_light

@@ -11,6 +11,13 @@ condition:
     entity_id: device_tracker.olivers_iphone_x
     state: 'home'
   - condition: time
+    weekday:
+      - mon
+      - tue
+      - wed
+      - thu
+      - fri
+  - condition: time
     after: '06:00:00'
     before: '11:00:00'
 action:

@@ -1,0 +1,9 @@
+alias: 'Turn off all the lights at sunrise'
+trigger:
+  - platform: sun
+    event: sunrise
+action:
+  - service: light.turn_off
+    entity_id: light.downstairs
+  - service: light.turn_off
+    entity_id: light.upstairs

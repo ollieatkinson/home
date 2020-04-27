@@ -1,0 +1,18 @@
+alias: 'In the evening, if Ellie is home, turn on the landing light'
+trigger:
+  - platform: sun
+    event: sunset
+    offset: '-01:00:00'
+  - platform: state
+    entity_id: device_tracker.ellie_iphone
+    to: 'home'
+condition:
+  - condition: state
+    entity_id: device_tracker.ellie_iphone
+    state: 'home'
+  - condition: time
+    after: '16:00:00'
+    before: '23:00:00'
+action:
+  service: light.turn_on
+  entity_id: light.landing_light

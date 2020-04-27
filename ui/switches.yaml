@@ -12,15 +12,11 @@ cards:
       - light.bedroom
       - light.downstairs_hall
       - light.ellie_dressing_room_light
-      - light.gu10_office_lights
-      - light.landing
+      - light.landing_light
       - light.living_room
       - light.living_room_2
       - light.living_room_lights
-      - light.office_1
-      - light.office_2
-      - light.office_3
-      - light.office_4
+      - light.gu10_office_lights
       - light.office_lamp
       - light.office_lights
       - light.porch_light

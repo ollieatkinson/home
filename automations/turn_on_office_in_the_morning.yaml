@@ -1,0 +1,21 @@
+alias: 'In the morning during the week, turn on the office'
+trigger:
+  - platform: time
+    at: '08:00'
+  - platform: state
+    entity_id: device_tracker.olivers_iphone_x
+    to: 'home'
+condition:
+  - condition: state
+    entity_id: device_tracker.olivers_iphone_x
+    state: 'home'
+  - condition: time
+    weekday:
+      - mon
+      - tue
+      - wed
+      - thu
+      - fri
+action:
+  service: homeassistant.turn_on
+  entity_id: group.office

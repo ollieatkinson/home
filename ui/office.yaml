@@ -18,6 +18,6 @@ cards:
         graph: line
         name: Temperature
   - type: media-control
-    entity: media_player.rx_v679_d0dcd2
+    entity: media_player.yamaha_receiver
   - type: thermostat
     entity: climate.office

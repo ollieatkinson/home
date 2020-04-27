@@ -2,7 +2,7 @@ office:
   name: "Office"
   icon: mdi:desk
   entities:
-    - media_player.rx_v679_d0dcd2
+    - media_player.yamaha_receiver
     - light.gu10_office_lights
     - light.office_lamp
     - sensor.office_temperature

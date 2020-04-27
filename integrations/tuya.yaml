@@ -1,4 +1,0 @@
-username: !secret email
-password: !secret tuya_password
-country_code: GB
-platform: tuya

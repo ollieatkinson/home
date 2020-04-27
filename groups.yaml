@@ -2,9 +2,8 @@ office:
   name: "Office"
   icon: mdi:desk
   entities:
-    - media_player.yamaha_receiver
-    - light.office_front
-    - light.office_back
+    - media_player.rx_v679_d0dcd2
+    - light.gu10_office_lights
     - light.office_lamp
     - sensor.office_temperature
     - sensor.office_heating
@@ -22,6 +21,14 @@ living_room:
     - sensor.living_room_heating
     - sensor.living_room_humidity
 
+dining_room:
+  name: "Dining Room"
+  icon: mdi:desk
+  entities:
+    - sensor.dining_room_temperature
+    - sensor.dining_room_heating
+    - sensor.dining_room_humidity
+
 master_bedroom:
   name: "Master Bedroom"
   icon: mdi:bed-king-outline
@@ -36,6 +43,24 @@ master_bathroom:
   icon: mdi:shower
   entities:
     - light.bathroom_light
+
+second_bedroom:
+  name: "Second Bedroom"
+  icon: mdi:bed-outline
+  entities:
+    - light.second_bedroom_light
+    - sensor.second_bedroom_temperature
+    - sensor.second_bedroom_heating
+    - sensor.second_bedroom_humidity
+
+tommys_bedroom:
+  name: "Tommys' Bedroom"
+  icon: mdi:bed-outline
+  entities:
+    - light.tommys_room
+    - sensor.tommys_room_temperature
+    - sensor.tommys_room_heating
+    - sensor.tommys_room_humidity
 
 family:
   name: Family

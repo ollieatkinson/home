@@ -1,0 +1,3 @@
+- !include automations/turn_on_living_room_at_sunset.yaml
+- !include automations/turn_off_all_lights_when_away.yaml
+- !include automations/turn_on_office_in_the_morning.yaml

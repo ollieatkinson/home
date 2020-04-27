@@ -39,3 +39,4 @@ zeroconf:
 sensor:
   - platform: systemmonitor
     resources: !include integrations/system_monitor.yaml
+automation: !include automation.yaml

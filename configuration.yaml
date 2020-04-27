@@ -32,6 +32,8 @@ frontend:
 system_health:
 tado: !include integrations/tado.yaml
 discovery:
+  ignore:
+    - yamaha
 light: !include integrations/light.yaml
 zeroconf:
 sensor:

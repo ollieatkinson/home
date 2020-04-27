@@ -31,7 +31,6 @@ frontend:
   themes: !include_dir_merge_named themes
 system_health:
 tado: !include integrations/tado.yaml
-tuya: !include integrations/tuya.yaml
 discovery:
 light: !include integrations/light.yaml
 zeroconf:

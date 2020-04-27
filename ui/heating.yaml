@@ -7,6 +7,8 @@ cards:
     cards:
       - type: thermostat
         entity: climate.heating
+      - type: entity
+        entity: water_heater.hot_water
       - type: glance
         entities:
           - entity: climate.office

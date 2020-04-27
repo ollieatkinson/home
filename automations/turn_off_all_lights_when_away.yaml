@@ -1,8 +1,13 @@
 alias: 'Away Mode'
 trigger:
-  platform: state
-  entity_id: all
-  to: 'not_home'
+  - platform: state
+    entity_id: device_tracker.olivers_iphone_x
+    to: 'not_home'
+  - platform: state
+    entity_id: device_tracker.ellie_iphone
+    to: 'not_home'
 action:
-  service: light.turn_off
-  entity_id: all
+  - service: light.turn_off
+    entity_id: light.downstairs
+  - service: light.turn_off
+    entity_id: light.upstairs

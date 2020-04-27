@@ -17,7 +17,7 @@ cards:
         entity: sensor.office_temperature
         graph: line
         name: Temperature
-  - type: media-control
-    entity: media_player.yamaha_receiver
+  - type: custom:mini-media-player
+    entity: media_player.yahama_receiver
   - type: thermostat
     entity: climate.office

@@ -177,7 +177,7 @@ cards:
             type: source
         columns: 6
         hide_when_off: true
-  - type: media-control
+  - type: custom:mini-media-player
     entity: media_player.living_room_tv
-  - type: media-control
-    entity: media_player.yamaha_receiver
+  - type: custom:mini-media-player
+    entity: media_player.yahama_receiver

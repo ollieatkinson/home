@@ -8,6 +8,7 @@ office:
     - sensor.office_temperature
     - sensor.office_heating
     - sensor.office_humidity
+    - group.sense_hat
 
 living_room:
   name: "Living Room"
@@ -69,3 +70,10 @@ family:
     - person.oliver
     - person.ellie
     - person.thomas
+
+sense_hat:
+  name: Sense HAT
+  entities:
+    - sensor.sensehat_temperature
+    - sensor.sensehat_humidity
+    - sensor.sensehat_pressure

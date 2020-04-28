@@ -18,6 +18,6 @@ cards:
         graph: line
         name: Temperature
   - type: custom:mini-media-player
-    entity: media_player.yahama_receiver
+    entity: media_player.yamaha_receiver
   - type: thermostat
     entity: climate.office

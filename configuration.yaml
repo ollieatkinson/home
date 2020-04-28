@@ -39,4 +39,9 @@ zeroconf:
 sensor:
   - platform: systemmonitor
     resources: !include integrations/system_monitor.yaml
+  - !include integrations/sense_hat.yaml
+  - !include integrations/sense_hat_template.yaml
 automation: !include automation.yaml
+alexa: !include integrations/alexa.yaml
+logger:
+  default: info

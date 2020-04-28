@@ -6,7 +6,7 @@ filter:
     - light.downstairs_hall
     - light.ellie_dressing_room_light
     - light.gu10_office_lights
-    - light.landing
+    - light.landing_light
     - light.office_lamp
     - light.porch_light
     - light.second_bedroom_light

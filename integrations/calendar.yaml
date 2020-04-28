@@ -2,6 +2,3 @@
   url: https://caldav.icloud.com
   username: !secret email
   password: !secret icloud_app_password
-  calendars:
-    - "Family"
-    - "UK Holidays"

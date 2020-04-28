@@ -180,4 +180,4 @@ cards:
   - type: custom:mini-media-player
     entity: media_player.living_room_tv
   - type: custom:mini-media-player
-    entity: media_player.yahama_receiver
+    entity: media_player.yamaha_receiver

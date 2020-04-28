@@ -1,0 +1,5 @@
+platform: sensehat
+display_options:
+  - temperature
+  - humidity
+  - pressure

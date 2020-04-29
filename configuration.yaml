@@ -20,6 +20,8 @@ http: !include integrations/http.yaml
 ios:
 logbook:
 webostv: !include integrations/media/lg_tv.yaml
+notify:
+wake_on_lan:
 media_player:
   - !include integrations/media/skyq.yaml
   - !include integrations/media/skyq_bedroom.yaml

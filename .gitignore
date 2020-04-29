@@ -7,7 +7,6 @@ tts
 *.db*
 /secrets.yaml
 @eaDir
-www/community
 .*.conf
 .*.state
 .pip*

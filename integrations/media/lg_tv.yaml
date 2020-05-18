@@ -1,9 +1,9 @@
 host: 10.10.26.9
 name: Living Room TV
+timeout: 5
 turn_on_action:
-  service: persistent_notification.create
-  data:
-    message: "Turn on action"
+  service: switch.turn_on
+  entity_id: switch.lg
 customize:
   sources:
     - livetv

@@ -47,3 +47,7 @@ automation: !include automation.yaml
 alexa: !include integrations/alexa.yaml
 logger:
   default: info
+switch:
+  - platform: wake_on_lan
+    name: lg
+    mac_address: "aa:bb:cc:dd:ee:ff"

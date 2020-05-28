@@ -25,6 +25,7 @@ wake_on_lan:
 media_player:
   - !include integrations/media/skyq.yaml
   - !include integrations/media/skyq_bedroom.yaml
+  - !include integrations/media/skyq_conservatory.yaml
   - !include integrations/media/yamaha_amplifier.yaml
 mqtt: !include integrations/mqtt.yaml
 scene: !include scenes.yaml

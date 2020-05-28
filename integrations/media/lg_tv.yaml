@@ -1,6 +1,5 @@
 - name: Living Room TV
   host: 10.10.26.9
-  timeout: 5
   turn_on_action:
     service: wake_on_lan.send_magic_packet
     data:
@@ -11,7 +10,6 @@
       - youtube
 - name: Conservatory TV
   host: 10.10.26.28
-  timeout: 5
   turn_on_action:
     service: wake_on_lan.send_magic_packet
     data:

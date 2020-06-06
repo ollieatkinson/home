@@ -16,3 +16,4 @@ filter:
     - switch.oven
     - switch.oven2
     - water_heater.hot_water
+    - media_player.*

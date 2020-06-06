@@ -13,7 +13,7 @@ api:
 device_tracker: !include integrations/device_tracker.yaml
 group: !include groups.yaml
 hive: !include integrations/hive.yaml
-homeconnect: !include integrations/homeconnect.yaml
+home_connect: !include integrations/homeconnect.yaml
 homekit: !include integrations/homekit.yaml
 http: !include integrations/http.yaml
 logbook:

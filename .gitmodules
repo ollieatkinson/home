@@ -1,6 +1,3 @@
-[submodule "3rd_party/homeassistant-homeconnect"]
-	path = 3rd_party/homeassistant-homeconnect
-	url = https://github.com/DavidMStraub/homeassistant-homeconnect.git
 [submodule "3rd_party/homeassistant-lightwave2"]
 	path = 3rd_party/homeassistant-lightwave2
 	url = https://github.com/bigbadblunt/homeassistant-lightwave2.git

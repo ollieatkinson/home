@@ -119,65 +119,68 @@ cards:
           type: source
       columns: 6
       hide_when_off: true
-      artwork: cover
-      entity: media_player.skyq
-      hide:
-        power_state: false
-        source: true
-        volume: true
-      icon: 'mdi:blank'
-      more_info: true
-      name: SkyQ
-      shortcuts:
-        buttons:
-          - icon: 'mdi:chevron-up'
-            id: CHup
-            type: source
-          - icon: 'mdi:chevron-down'
-            id: CHdn
-            type: source
-          - icon: 'mdi:record-rec'
-            id: Record
-            type: source
-          - icon: null
-            id: Sky
-            name: Sky
-            type: source
-          - icon: null
-            id: TVGuide
-            name: Guide
-            type: source
-          - icon: 'mdi:home-outline'
-            id: Home
-            type: source
-          - icon: 'mdi:menu-open'
-            id: Sidebar
-            type: source
-          - icon: 'mdi:keyboard-return'
-            id: Dismiss
-            type: source
-          - icon: 'mdi:information-variant'
-            id: I
-            type: source
-          - icon: 'mdi:arrow-right-thick'
-            id: Right
-            type: source
-          - icon: 'mdi:arrow-left-thick'
-            id: Left
-            type: source
-          - icon: 'mdi:arrow-up-thick'
-            id: Up
-            type: source
-          - icon: 'mdi:arrow-down-thick'
-            id: Down
-            type: source
-          - icon: null
-            id: Select
-            name: Select
-            type: source
-        columns: 6
-        hide_when_off: true
+  - type: 'custom:mini-media-player'
+    artwork: cover
+    entity: media_player.skyq_conservatory
+    hide:
+      power_state: false
+      source: true
+      volume: true
+    icon: 'mdi:blank'
+    more_info: true
+    name: SkyQ
+    shortcuts:
+      buttons:
+        - icon: 'mdi:chevron-up'
+          id: CHup
+          type: source
+        - icon: 'mdi:chevron-down'
+          id: CHdn
+          type: source
+        - icon: 'mdi:record-rec'
+          id: Record
+          type: source
+        - icon: null
+          id: Sky
+          name: Sky
+          type: source
+        - icon: null
+          id: TVGuide
+          name: Guide
+          type: source
+        - icon: 'mdi:home-outline'
+          id: Home
+          type: source
+        - icon: 'mdi:menu-open'
+          id: Sidebar
+          type: source
+        - icon: 'mdi:keyboard-return'
+          id: Dismiss
+          type: source
+        - icon: 'mdi:information-variant'
+          id: I
+          type: source
+        - icon: 'mdi:arrow-right-thick'
+          id: Right
+          type: source
+        - icon: 'mdi:arrow-left-thick'
+          id: Left
+          type: source
+        - icon: 'mdi:arrow-up-thick'
+          id: Up
+          type: source
+        - icon: 'mdi:arrow-down-thick'
+          id: Down
+          type: source
+        - icon: null
+          id: Select
+          name: Select
+          type: source
+      columns: 6
+      hide_when_off: true
   - type: custom:mini-media-player
     entity: media_player.living_room_tv
+  - type: custom:mini-media-player
+    entity: media_player.conservatory_tv
   - type: custom:mini-media-player
     entity: media_player.yamaha_receiver

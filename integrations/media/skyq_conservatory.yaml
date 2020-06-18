@@ -1,7 +1,7 @@
 platform: skyq
-host: 10.10.26.11
-name: SkyQ
-room: Lounge
+host: 10.10.26.12
+name: SkyQ Conservatory
+room: Conservatory
 generate_switches_for_channels: true
 sources:
   BBCOne: '1,1,5'

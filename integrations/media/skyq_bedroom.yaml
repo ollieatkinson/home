@@ -2,7 +2,6 @@ platform: skyq
 host: 10.10.26.62
 name: SkyQ Bedroom
 room: Bedroom
-config_directory: '/home/homeassistant/home/'
 generate_switches_for_channels: true
 sources:
   BBCOne: '1,1,5'

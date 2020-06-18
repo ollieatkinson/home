@@ -9,10 +9,14 @@ smart_home:
       - light.ellie_dressing_room_light
       - light.office_lamp
       - media_player.living_room_tv
+      - media_player.conservatory_tv
       - light.sensehat
       - sensor.sensehat_temperature
       - sensor.sensehat_humidity
       - sensor.sensehat_pressure
       - media_player.skyq
       - media_player.skyq_bedroom
+      - media_player.skyq_conservatory
       - media_player.yamaha_receiver
+      - device_tracker.olivers_iphone_x
+      - device_tracker.ellie_iphone

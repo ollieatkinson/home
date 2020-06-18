@@ -10,14 +10,12 @@ lovelace:
 # camera: !include integrations/camera.yaml
 calendar: !include integrations/calendar.yaml
 api:
-default_config:
 device_tracker: !include integrations/device_tracker.yaml
 group: !include groups.yaml
 hive: !include integrations/hive.yaml
-homeconnect: !include integrations/homeconnect.yaml
+home_connect: !include integrations/homeconnect.yaml
 homekit: !include integrations/homekit.yaml
 http: !include integrations/http.yaml
-ios:
 logbook:
 webostv: !include integrations/media/lg_tv.yaml
 notify:
@@ -25,6 +23,7 @@ wake_on_lan:
 media_player:
   - !include integrations/media/skyq.yaml
   - !include integrations/media/skyq_bedroom.yaml
+  - !include integrations/media/skyq_conservatory.yaml
   - !include integrations/media/yamaha_amplifier.yaml
 mqtt: !include integrations/mqtt.yaml
 scene: !include scenes.yaml
@@ -34,8 +33,6 @@ frontend:
 system_health:
 tado: !include integrations/tado.yaml
 discovery:
-  ignore:
-    - yamaha
 light: !include integrations/light.yaml
 zeroconf:
 sensor:

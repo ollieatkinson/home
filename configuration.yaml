@@ -43,3 +43,4 @@ automation: !include automation.yaml
 alexa: !include integrations/alexa.yaml
 logger:
   default: info
+mobile_app:

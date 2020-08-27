@@ -36,4 +36,5 @@
     - light.second_bedroom_light
     - light.ellie_dressing_room_light
     - light.tommys_room
+    - switch.bedroom_light
 - platform: sensehat

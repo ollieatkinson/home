@@ -2,7 +2,8 @@ filter:
   include_entities:
     - climate.heating
     - light.bathroom_light
-    - light.bedroom
+    - light.bedroom_dimmer
+    - switch.bedroom_light
     - light.downstairs_hall
     - light.ellie_dressing_room_light
     - light.gu10_office_lights

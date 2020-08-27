@@ -35,6 +35,7 @@ master_bedroom:
   icon: mdi:bed-king-outline
   entities:
     - light.bedroom
+    - switch.bedroom_light
     - sensor.bedroom_temperature
     - sensor.bedroom_heating
     - sensor.bedroom_humidity

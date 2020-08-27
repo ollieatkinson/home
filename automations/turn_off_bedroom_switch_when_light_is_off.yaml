@@ -1,0 +1,8 @@
+alias: 'When the bedroom light switch is turned on, illuminate the room'
+trigger:
+  - platform: state
+    entity_id: light.bedroom
+    to: 'off'
+action:
+  service: homeassistant.turn_off
+  entity_id: switch.bedroom_light

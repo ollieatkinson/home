@@ -31,10 +31,9 @@
   name: Upstairs Lights
   entities:
     - light.bedroom
-    - light.bathroom_light
+    - light.bathroom_dimmer
     - light.landing_light
     - light.second_bedroom_light
     - light.ellie_dressing_room_light
     - light.tommys_room
-    - switch.bedroom_light
 - platform: sensehat

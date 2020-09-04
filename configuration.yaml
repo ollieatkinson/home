@@ -5,6 +5,8 @@ homeassistant:
   elevation: !secret home_elevation
   unit_system: metric
   time_zone: Europe/London
+  allowlist_external_dirs:
+    - /config/www/
 lovelace:
 # camera: !include integrations/camera.yaml
 calendar: !include integrations/calendar.yaml
@@ -44,3 +46,4 @@ alexa: !include integrations/alexa.yaml
 logger:
   default: info
 mobile_app:
+stream:

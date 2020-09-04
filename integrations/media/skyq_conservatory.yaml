@@ -1,5 +1,5 @@
 platform: skyq
-host: 10.10.26.12
+host: 10.10.26.7
 name: SkyQ Conservatory
 room: Conservatory
 generate_switches_for_channels: true

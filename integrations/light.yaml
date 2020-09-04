@@ -30,7 +30,6 @@
 - platform: group
   name: Upstairs Lights
   entities:
-    - light.bedroom
     - light.bathroom_dimmer
     - light.landing_light
     - light.second_bedroom_light

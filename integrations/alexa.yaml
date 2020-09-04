@@ -9,8 +9,8 @@ smart_home:
       - light.ellie_dressing_room_light
       - light.office_lamp
       - light.bedroom_dimmer
-      - media_player.living_room_tv
-      - media_player.conservatory_tv
+      - media_player.tv_living_room
+      - media_player.tv_conservatory
       - light.sensehat
       - sensor.sensehat_temperature
       - sensor.sensehat_humidity

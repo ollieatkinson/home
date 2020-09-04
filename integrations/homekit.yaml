@@ -17,8 +17,8 @@ filter:
     - switch.oven
     - switch.oven2
     - water_heater.hot_water
-    - media_player.living_room_tv
-    - media_player.conservatory_tv
+    - media_player.tv_living_room
+    - media_player.tv_conservatory
     - media_player.skyq
     - media_player.skyq_bedroom
     - media_player.skyq_conservatory

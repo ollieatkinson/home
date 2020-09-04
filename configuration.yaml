@@ -6,7 +6,7 @@ homeassistant:
   unit_system: metric
   time_zone: Europe/London
 lovelace:
-# camera: !include integrations/camera.yaml
+camera: !include integrations/camera.yaml
 calendar: !include integrations/calendar.yaml
 api:
 device_tracker: !include integrations/device_tracker.yaml
@@ -34,6 +34,7 @@ tado: !include integrations/tado.yaml
 discovery:
 light: !include integrations/light.yaml
 zeroconf:
+recorder:
 sensor:
   - platform: systemmonitor
     resources: !include integrations/system_monitor.yaml

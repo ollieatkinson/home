@@ -11,3 +11,5 @@ tts
 .*.state
 .pip*
 .DS_Store
+/known_devices.yaml
+/.HA_VERSION

@@ -33,6 +33,7 @@ system_health:
 tado: !include integrations/tado.yaml
 discovery:
 light: !include integrations/light.yaml
+lightwave: !include integrations/lightwave.yaml
 zeroconf:
 recorder:
 sensor:

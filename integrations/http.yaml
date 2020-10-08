@@ -1,4 +1,2 @@
 use_x_forwarded_for: true
 trusted_proxies: 127.0.0.1
-ssl_certificate: !secret ssl_certificate
-ssl_key: !secret ssl_key

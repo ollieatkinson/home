@@ -1,5 +1,8 @@
 smart_home:
   locale: en-GB
+  endpoint: "https://api.eu.amazonalexa.com/v3/events"
+  client_id: !secret alexa_client_id
+  client_secret: !secret alexa_client_secret
   filter:
     include_entities:
       - light.landing_light
@@ -8,8 +11,9 @@ smart_home:
       - light.second_bedroom_light
       - light.ellie_dressing_room_light
       - light.office_lamp
-      - media_player.living_room_tv
-      - media_player.conservatory_tv
+      - light.bedroom_dimmer
+      - media_player.tv_living_room
+      - media_player.tv_conservatory
       - light.sensehat
       - sensor.sensehat_temperature
       - sensor.sensehat_humidity
@@ -20,3 +24,4 @@ smart_home:
       - media_player.yamaha_receiver
       - device_tracker.olivers_iphone_x
       - device_tracker.ellie_iphone
+      - switch.bedroom_light

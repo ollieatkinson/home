@@ -3,3 +3,4 @@
 - !include automations/turn_on_office_in_the_morning.yaml
 # - !include automations/turn_on_landing_light_at_sunset.yaml
 - !include automations/turn_off_all_light_at_sunrise.yaml
+- !include automations/turn_on_bedroom_light_when_switch_is_pressed.yaml

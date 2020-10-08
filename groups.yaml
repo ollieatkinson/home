@@ -15,7 +15,7 @@ living_room:
   icon: mdi:desk
   entities:
     - media_player.skyq
-    - media_player.living_room_tv
+    - media_player.tv_living_room
     - light.living_room
     - light.living_room_2
     - sensor.living_room_temperature
@@ -34,7 +34,8 @@ master_bedroom:
   name: "Master Bedroom"
   icon: mdi:bed-king-outline
   entities:
-    - light.bedroom
+    - light.bedroom_dimmer
+    - switch.bedroom_light
     - sensor.bedroom_temperature
     - sensor.bedroom_heating
     - sensor.bedroom_humidity

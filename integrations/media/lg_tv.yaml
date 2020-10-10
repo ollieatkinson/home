@@ -3,18 +3,11 @@
   turn_on_action:
     service: wake_on_lan.send_magic_packet
     data:
-      mac: 43-2E-B8-1F-EA-BB
-  customize:
-    sources:
-      - livetv
-      - youtube
-- name: Conservatory TV
+      mac: AA-BB-CC-DD-EE-FF
+      broadcast_address: 11.22.33.44
   host: 10.10.26.38
   turn_on_action:
     service: wake_on_lan.send_magic_packet
     data:
-      mac: 43-2E-B8-1F-EA-BB
-  customize:
-    sources:
-      - livetv
-      - youtube
+      mac: AA-BB-CC-DD-EE-FF
+      broadcast_address: 11.22.33.44

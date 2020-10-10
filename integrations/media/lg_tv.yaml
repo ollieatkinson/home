@@ -1,5 +1,5 @@
 - name: Living Room TV
-  host: 10.10.26.8
+  host: 10.10.26.18
   turn_on_action:
     service: wake_on_lan.send_magic_packet
     data:
@@ -9,7 +9,7 @@
       - livetv
       - youtube
 - name: Conservatory TV
-  host: 10.10.26.12
+  host: 10.10.26.38
   turn_on_action:
     service: wake_on_lan.send_magic_packet
     data:

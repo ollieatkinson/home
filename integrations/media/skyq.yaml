@@ -1,5 +1,5 @@
 platform: skyq
-host: 10.10.26.19
+host: 10.10.26.15
 name: SkyQ
 room: Lounge
 generate_switches_for_channels: true

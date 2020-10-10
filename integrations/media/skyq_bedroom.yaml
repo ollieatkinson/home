@@ -1,5 +1,5 @@
 platform: skyq
-host: 10.10.26.41
+host: 10.10.26.36
 name: SkyQ Bedroom
 room: Bedroom
 generate_switches_for_channels: true

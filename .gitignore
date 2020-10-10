@@ -13,3 +13,4 @@ tts
 .DS_Store
 /known_devices.yaml
 /.HA_VERSION
+skyq*.yaml

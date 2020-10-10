@@ -1,15 +1,6 @@
-[submodule "3rd_party/homeassistant-lightwave2"]
-	path = 3rd_party/homeassistant-lightwave2
-	url = https://github.com/bigbadblunt/homeassistant-lightwave2.git
-[submodule "3rd_party/Home_Assistant_SkyQ_MediaPlayer"]
-	path = 3rd_party/Home_Assistant_SkyQ_MediaPlayer
-	url = https://github.com/4n0nD3v3l0p3r/Home_Assistant_SkyQ_MediaPlayer.git
 [submodule "themes/lovelace-ios-dark-mode-theme"]
 	path = themes/lovelace-ios-dark-mode-theme
 	url = https://github.com/basnijholt/lovelace-ios-dark-mode-theme.git
 [submodule "themes/slate_theme"]
 	path = themes/slate_theme
 	url = https://github.com/seangreen2/slate_theme.git
-[submodule "3rd_party/hacs"]
-	path = 3rd_party/hacs
-	url = https://github.com/hacs/integration.git

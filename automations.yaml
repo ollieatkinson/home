@@ -1,0 +1,15 @@
+- id: '1602367503679'
+  alias: New Automation
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.oliver_active
+  condition:
+  - condition: state
+    entity_id: binary_sensor.oliver_active
+    state: 'on'
+  action:
+  - condition: state
+    entity_id: media_player.yamaha_receiver
+    state: 'on'
+  mode: single
